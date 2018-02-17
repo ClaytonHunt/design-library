@@ -1,0 +1,5 @@
+<base href="/{{htmlWebpackPlugin.options.basePath}}">
+
+{{#each htmlWebpackPlugin.files.css}}
+<link href="{{#if ../htmlWebpackPlugin.options.cdnPath}}{{../htmlWebpackPlugin.options.cdnPath}}{{/if}}{{this}}" rel="stylesheet">
+{{/each}}
