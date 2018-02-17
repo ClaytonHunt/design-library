@@ -10,7 +10,7 @@
       false
     ],
     "max-line-length": [
-      300
+      120
     ],
     "no-trailing-whitespace": false,
     "no-var-requires": false,
