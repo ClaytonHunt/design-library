@@ -1,0 +1,3 @@
+{{#each htmlWebpackPlugin.files.chunks}}
+<script src="{{#if ../htmlWebpackPlugin.options.cdnPath}}{{../htmlWebpackPlugin.options.cdnPath}}{{/if}}{{this.entry}}"></script>
+{{/each}}

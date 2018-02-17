@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+      <body>
+        <trans-unit id="appHeader" data-type="html">
+          <source>Hello from Angular2 App</source>
+          <target>Hola desde la aplicación Angular2</target>
+        </trans-unit>
+      </body>
+    </file>
+</xliff>

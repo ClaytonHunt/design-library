@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm install && angular-scripts test:ci",
+    "build": "npm install && angular-scripts deploy",
+    "start": "npm install && angular-scripts dev",
+    "test:dev": "npm install && angular-scripts test",
+    "update-all": "npm install && angular-scripts update-all"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,21 @@
   "bugs": {
     "url": "https://github.com/ClaytonHunt/design-library/issues"
   },
-  "homepage": "https://github.com/ClaytonHunt/design-library#readme"
+  "homepage": "https://github.com/ClaytonHunt/design-library#readme",
+  "dependencies": {
+    "@angular/common": "^5.2.5",
+    "@angular/compiler": "^5.2.5",
+    "@angular/core": "^5.2.5",
+    "@angular/http": "^5.2.5",
+    "@angular/platform-browser": "^5.2.5",
+    "@angular/platform-browser-dynamic": "^5.2.5",
+    "@angular/router": "^5.2.5",
+    "@itworks/build-scripts": "^3.1.0",
+    "@types/core-js": "^0.9.46",
+    "@types/jasmine": "^2.8.6",
+    "@types/node": "^9.4.6",
+    "core-js": "^2.5.3",
+    "rxjs": "^5.5.6",
+    "zone.js": "^0.8.20"
+  }
 }
