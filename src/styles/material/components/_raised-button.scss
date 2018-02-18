@@ -1,0 +1,5 @@
+@import '../elevation';
+
+.raised-button {
+    @extend .dp2;
+}
