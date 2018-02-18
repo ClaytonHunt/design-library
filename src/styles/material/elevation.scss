@@ -1,0 +1,73 @@
+* {
+  z-index: 0;
+}
+
+/* Switch */
+.1dp {
+  z-index: 2;
+}
+
+/* Card (resting elevatio)* */
+/* Raised button (resting elevation)* */
+/* Quick entry / Search bar (resting elevation)* */
+.2dp {
+  z-index: 3;
+}
+
+/* Refresh indicator */
+/* Quick entry / Search bar (scrolled state) */
+.3dp {
+  z-index: 4;
+}
+
+/* App Bar */
+.4dp {
+  z-index: 5;
+}
+
+/* Floating action button (FAB - resting elevation) */
+/* Snackbar */
+.6dp {
+  z-index: 7;
+}
+
+/* Bottom navigation bar */
+/* Menu */
+/* Card (When picked up) */
+/* Raised button (pressed state) */
+.8dp {
+  z-index: 9;
+}
+
+/* Sub menu (+1dp for each sub menu) */
+.9dp {
+  z-index: 10;
+}
+
+/* Sub menu 2 (+1dp for each sub menu) */
+.10dp {
+  z-index: 11;
+}
+
+/* Sub menu 3 (+1dp for each sub menu) */
+.11dp {
+  z-index: 12;
+}
+
+/* Floating action button (FAB - pressed) */
+.12dp {
+  z-index: 13;
+}
+
+/* Nav drawer */
+/* Right drawer */
+/* Modal bottom Sheet */
+.16dp {
+  z-index: 17;
+}
+
+/* Dialog */
+/* Picker */
+.24dp {
+  z-index: 25;
+}
